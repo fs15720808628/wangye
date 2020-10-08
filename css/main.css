@@ -1,0 +1,180 @@
+*{
+	margin: 0px;
+}
+#top {
+	height:400px;
+	background-color: LightGrey;
+	
+}
+#topright {
+	
+	float: right;
+	width: 1300px;
+	height: 400px;
+	right: 10px;
+	background-image: url(../img/topright.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#topleft {
+	position: absolute;
+	left:10px;
+	float: left;
+	
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+
+#middle {
+	text-align-last: justify;
+	height: 60px;
+	background-color: LightGrey;
+}
+#body{
+	position: absolute;
+	top:460px;
+	left:1px;
+	right: 1px;
+}
+#bodyleft{
+	float: left;
+	width: 400px;
+	height: 100%;
+	background-color: LightGrey;
+}
+#bodyright{
+	position: absolute;
+	float: right;
+	height: 100%;
+	right: 0px;
+	left:400px;
+	background-image: url(../img/bodyright1.jpg);
+	
+	
+}
+#bodyright-left{
+	position: relative;
+	float: left;
+	width: 400px;
+	background-color: LightGrey;
+	
+}
+#bodyright-right{
+position: absolute;
+	float: right;
+	height: 100%;
+	right: 0px;
+	left:400px;
+	background-color: LightGrey;
+	
+}
+#bodycontents {
+
+	position: absolute;
+	text-align: center;
+	left:30px;
+	right:30px;
+}
+#bodyright-title{
+	position: relative;
+	clear: both;
+	top:50px;
+	text-align: center;
+	color:red;
+	font-size: 35px;	
+}
+#bodyright-content{
+	position:relative;
+	clear: both;
+	text-align: left;
+	font-size: 20px;	
+}
+#bodyrightfooter{
+	position: absolute;
+	height: 25px;
+	left: 0px;
+	right: 0px;
+	bottom:0px;
+	background-image: url(../img/bodyright2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	line-height: 25px;
+	font-size: 12px;
+}
+#bottom-img1 {
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	right: 10px;
+	bottom:30px;
+	background-image: url(../img/bottom1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#bottom-img2 {
+	position: absolute;
+	width: 150px;
+	height: 200px;
+	right: 170px;
+	bottom:250px;
+	background-image: url(../img/bottom2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#bottom-img3 {
+	position: absolute;
+	width: 200px;
+	height: 100px;
+	right: 170px;
+	bottom:450px;
+	background-image: url(../img/bottom3.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#bottom-img4 {
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	right: 370px;
+	bottom:400px;
+	background-image: url(../img/bottom4.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#bottom-text2 {
+	position: absolute;
+	width: 100px;
+	height: 150px;
+	right: 300px;
+	bottom:450px;
+
+}
+#bottom-text {
+	position: absolute;
+	width: 1000px;
+	height: 150px;
+	left: 100px;
+	bottom:30px;
+	background-color: LightGrey;
+}
+.divbodyleft {
+	
+	text-align: left;
+
+}
+
+.divbodyleft dt {
+	clear: both;
+	float: left;
+	color:red;
+	font-size: 25px;
+}
+
+.divbodyleft dd {
+	clear: both;
+	float: left;
+	font-size: 18px;
+}
